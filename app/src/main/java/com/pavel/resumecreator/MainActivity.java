@@ -2,6 +2,7 @@ package com.pavel.resumecreator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -37,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         }else {
             vibrator.vibrate(50);
         }
-
+        Intent in = new Intent(MainActivity.this,details_page.class);
+        startActivity(in);
 
     }
 
