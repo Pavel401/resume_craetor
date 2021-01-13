@@ -2,4 +2,11 @@
     <string name="app_name">RESUME CREATOR</string>
     <string name="details">Details</string>
     <string name="section">Section</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="education_details">Education Details</string>
+    <string name="skills">Skills</string>
+    <string name="objective">Objective</string>
+    <string name="reference">Reference</string>
+    <string name="achievements_and_awards">Achievements and Awards</string>
+    <string name="projects">Projects</string>
 </resources>
